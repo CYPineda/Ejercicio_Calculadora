@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignBottom="@id/btnSuma"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:autoText="true"
+        android:background="#00BCD4"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="Calculadora"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textDirection="firstStrongRtl"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtprimernumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_n1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtsegundonumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_n2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btnsuma"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        android:textDirection="inherit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:strokeColor="#009688" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btnresta"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        android:textDirection="firstStrongRtl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnMult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btnmult"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        android:textDirection="firstStrongRtl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btndiv"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        android:textDirection="firstStrongRtl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</LinearLayout>

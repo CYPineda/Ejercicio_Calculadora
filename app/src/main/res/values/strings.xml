@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio_Calculadora</string>
+    <string name="app_n1">Ingrese el primer número</string>
+    <string name="app_n2">Ingrese el segundo número</string>
+    <string name="app_btnsuma">Suma</string>
+    <string name="app_btnresta">Resta</string>
+    <string name="app_btnmult">Multiplicación</string>
+    <string name="app_btndiv">División</string>
+</resources>
